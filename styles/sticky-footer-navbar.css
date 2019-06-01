@@ -9,14 +9,15 @@ body {
   margin-bottom: 60px;
 }
 .footer {
-  /*position: absolute; */
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px;
-  background-color: #f5f5f5;
+    /*position: relative;*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here and z-index */
+    height: 60px;
+    line-height: 60px;
+    z-index: 1;
+    background-color: #f5f5f5;
 }
 
 
@@ -26,7 +27,7 @@ body {
 
 body > .container {
   padding: 60px 15px 0;
-}
+} 
 /* .container .text-muted {
   margin: 20px 0;
 } */

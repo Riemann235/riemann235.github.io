@@ -2,8 +2,12 @@
 /* Global styles
 ------------------------------------*/
 
+html {
+    font-size: 14px; /*The base font size is now 14 pixels high  */
+}
+
 body {
-    font-size: 14px; /* The base font size is now 10 pixels high  */
+    font-size: 14px; /*The base font size is now 14 pixels high  */
     font-family: 'Open Sans', sans-serif; /* Google fonts */
 }
 

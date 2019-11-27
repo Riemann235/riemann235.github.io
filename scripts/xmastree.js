@@ -1,12 +1,15 @@
 var thetamin = 0,
   thetamax = 6 * Math.PI,
-  period = 5,
+ /* period = 5,
   linespacing = 1 / 18,
-  linelength = linespacing / 2,
-  yscreenoffset = 130,
+  linelength = linespacing / 2, */
+  period = 10,
+  linespacing = 1 / 10,
+  linelength = linespacing / 4,
+  yscreenoffset = 135,
   xscreenoffset = 100,
   xscreenscale = 180,
-  yscreenscale = 180,
+  yscreenscale = 160,
   ycamera = 2,
   zcamera = -3,
 
@@ -47,7 +50,7 @@ function run() {
           factor: factor
         }),
         new Spiral({
-          foreground: "#00ffcc", // cyan spiral
+          foreground: "#009933", // cyan spiral
           angleoffset: 0,
           factor: factor
         })];
@@ -61,6 +64,7 @@ function run() {
     ctx.beginPath();
     spirals.forEach(renderSpiral);
       //drawStar(100, 60, 6, 8, 3);
+      // drawStar(100, 15, 6, 8, 3);
       drawStar(100, 15, 6, 8, 3);
   }
 

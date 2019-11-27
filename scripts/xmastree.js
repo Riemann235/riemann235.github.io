@@ -145,7 +145,8 @@ function run() {
 
   // I actually want it to be slower then 60fps
   function requestAnimationFrame(callback) {
-    window.setTimeout(callback, 1000 / 24);
+      // window.setTimeout(callback, 1000 / 24);
+      window.setTimeout(callback, 100);
   }
 
     function drawStar(cx, cy, spikes, outerRadius, innerRadius) {

@@ -1,2 +1,4 @@
 # Riemann235.github.io
-ADT Ardoch Development Trust simple static web site
+## ADT Ardoch Development Trust static web site
+The Ardoch Development Trust is a small registered charity and member of DTAS (Development Trusts Association Scotland)
+The site is a static and uses Bootstrap. 

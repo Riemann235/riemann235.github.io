@@ -60,7 +60,7 @@ and (orientation : portrait) { .img-responsive {
 	} 
  }
 
-.container h2, h3 {
+.container h1,h2, h3 {
     color: hsla(157, 67%, 30%, 0.83);
     /*color: hsl(157, 31%, 49%);  */
 }
